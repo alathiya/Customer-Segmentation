@@ -63,14 +63,14 @@ Note (m.u.) is shorthand for *monetary units*.
 
 8) `Region`: {Lisbon - 1, Oporto - 2, or Other - 3} (Nominal) 
 
-##Implementation
+## Implementation
 
 I have used Gaussian Mixture Model clustering algorithm to identify the various customer segments hidden in the data. Goodness
 of clustering can be quantified from each data point's silhouette coefficient.The silhouette coefficient for a data point measures 
 how similar it is to its assigned cluster from -1 (dissimilar) to 1 (similar). Calculating the mean silhouette coefficient provides 
 for a simple scoring method of a given clustering. 
 
-After running clustering algorithm on data silhouette score is reported for different number of clusters. Best silhouette score is 
+After running clustering algorithm on data, silhouette score is reported for different number of clusters. Best silhouette score is 
 chosen from predicted number of clusters. Finally visualization is done for optimal number of clusters. 
 Conclusion is done with investigation on ways to use clustered data. 
   
